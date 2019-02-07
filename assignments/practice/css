@@ -1,0 +1,17 @@
+header, section, footer, aside, nave, article, figure, figcaption {
+    display: block;}
+
+body {
+    color:#666666;
+    background-color: #f9f8f6;
+    background-image: url ("images/dark-wood.jpg");
+    background-position: center;
+    font-family: Georgia, Times, serif;
+    line-height: 1.4em;
+    margin: 0px;
+    }
+
+.wrapper {
+    width: 940px;
+    margin: 20px;
+}

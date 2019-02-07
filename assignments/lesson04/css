@@ -1,0 +1,27 @@
+*{
+font-family: 'Raleway', sans-serif;
+font-family: 'Noto Serif SC', serif;
+
+}
+body {
+	background-color: #F2EBC7;
+}
+
+header {
+	margin: 10px auto;
+	background-color: #962D3E;
+	border: 1px solid #bbb;
+	text-align: center;
+	font-color: white;
+}
+
+header img, .headings {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 10px;
+}
+
+
+
+
+
