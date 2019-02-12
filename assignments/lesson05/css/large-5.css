@@ -1,0 +1,32 @@
+@media only screen and (min-width: 64em) {
+    header img {
+        width: 150px;
+        margin-top: 0;
+    }
+
+    picture, .headings {
+        display: inline-block;
+        margin: 1.5em;
+        vertical-align: middle;
+    }
+
+    h1{
+        font-size: 2.5 rem;
+    }
+
+    .headertext {
+        margin-left: 4rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+/* Media Query for medium + screens */
+    .site-navigation li:first-child {display: none;}
+    .site-navigation li {display: inline-block; margin-right: 1rem;}
+    .site-navigation li a {color: yellow;}
+
+
+
+
+}

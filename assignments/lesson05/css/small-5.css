@@ -1,0 +1,100 @@
+*{
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Noto Serif SC', serif;
+    
+    }
+    body {
+        background-color: #F2EBC7;
+    }
+    
+    header {
+        margin: 10px auto;
+        background-color: #962D3E;
+        border: 1px solid #bbb;
+        box-shadow: 0 0 30px #777;
+        text-align: center;
+    }
+    
+    .headerimg{
+        display: inline-block;
+        vertical-align: middle;
+        width: 50px;
+        height: auto;
+    }
+    .hero{
+        display: inline-block;
+        vertical-align: middle;
+        margin: 10px;
+        width: 500px;
+        height: auto;
+    }
+
+    h1 {
+        color: white;
+    }
+    
+    .motto {
+        color: white;
+        margin: 10px;
+    }
+    
+    ul{
+        list-style-type: none;
+    }
+    
+    img {
+        display: inline-block
+    }
+    
+    nav {margin: 0 auto; max-width: 760px; background-color: #000;}
+        .site-navigation {list-style: none; text-align: center;}
+            .site-navigation li:first-child {display:block;}
+            .site-navigation li {display:none}
+            .site-navigation a {display:block; color: #fff; padding: .75rem; text-align: center; text-decoration: none;}
+            .site-navigation a:hover {color: #000; background-color: #fff; font-weight: 700;}
+    
+    /*
+    .active {
+
+    }
+
+    .mainheader {
+
+    }
+    
+    .headings {
+
+    }
+
+    .weathersummary {
+
+    }
+
+    .weatherdetails {
+
+    }
+
+    .label{
+
+    }
+
+    .value {
+
+    }
+
+    .forecast {
+
+    }
+
+    .forecast-image {
+
+    }
+    
+    .town-article {
+
+    }
+
+    .contact {
+
+    }
+    */
