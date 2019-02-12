@@ -53,6 +53,10 @@
             .site-navigation a {display:block; color: #fff; padding: .75rem; text-align: center; text-decoration: none;}
             .site-navigation a:hover {color: #000; background-color: #fff; font-weight: 700;}
     
+    .articleimg {
+        width: 500px;
+        height: auto;
+    }
     /*
     .active {
 
