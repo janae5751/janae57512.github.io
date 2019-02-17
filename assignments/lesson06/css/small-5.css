@@ -1,6 +1,8 @@
 *{
     font-family: 'Raleway', sans-serif;
     font-family: 'Noto Serif SC', serif;
+    padding: 0;
+    margin: 0;
     
     }
     body {
@@ -40,7 +42,7 @@
     .headerimg{
         display: inline-block;
         vertical-align: middle;
-        width: 50px;
+        width: 100px;
         height: auto;
     }
     .hero{
@@ -74,10 +76,6 @@
         list-style-type: none;
     }
     
-    img {
-        display: inline-block
-    }
-    
     nav {margin: 0 auto; max-width: 960px; background-color: #348899;}
         .site-navigation {list-style: none; text-align: center;}
             .site-navigation li:first-child {display:block;}
@@ -85,19 +83,33 @@
             .site-navigation a {display:block; color: #fff; padding: .75rem; text-align: center; text-decoration: none;}
             .site-navigation a:hover {color: #348899; background-color: #fff; font-weight: 700;}
             .active {text-decoration-line: underline;}
+
     .articleimg {
-        width: 500px;
-        height: auto;
+        max-width: 100%;
+        display: inline-block;
+        padding: 1rem;
+    
     }
 
-    .forecast {
-        display: none;
-    }
-    
+.town-article{
+    display: block;
+    margin: 1rem auto;
+    position: relative;
+}
+
     .weatherdetails {
       display: block;  
     }
   
+    .fiveday{
+        background-color: #fff;
+        text-align: center;
+        margin: 1rem auto;
+    }
+    .fiveday th, td{
+        border: 2px solid #343642;
+        
+    }
 /*
     
     .headings {

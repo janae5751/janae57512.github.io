@@ -15,7 +15,7 @@
 
 <body>
     <header>
-        <img class="headerimg" src="images/weathericon200px.jpg" alt="weather icon">
+        <img class="headerimg" src="images/weathericon400.jpg" alt="weather icon">
         <div class="headings">
             <h1>South Eastern Idaho Community and Weather</h1>
             <div class="motto">The place for locals to get weather and community information.</div>
@@ -54,7 +54,7 @@
         </div>
         <section class="forecast">
             <h3>5 Day Forecast</h3>
-            <table>
+            <table class="fiveday">
                 <thead>
                     <tr>
                         <th>Wed</th>
@@ -77,10 +77,12 @@
         </section>
         
         <article class="town-article">
-            <img src="images/weatherchild500px.jpg" alt="Child playing in the snow" class="articleimg">
-            <h3>Article Title</h3>
-            <h4>Author</h4>
-            <p>This is where the article will be.
+            
+            <h3>Snow Fun for Kids!</h3>
+            <h4>Jane Smith</h4>
+            <img src="images/weatherchild500px.jpg" alt="Child playing in the snow" class="articleimg"><p>Oh, to be a child again! To find joy in the newness of each day and be in awe of what lies waiting to be discovered.
+
+                As researchers, through a case study, we wanted to learn more about the ways one kindergarten class in northern Ontario nurtured curiosity in the outdoors. We invited the kindergarten community including educators, families and teacher candidates to share their experiences with us.
                 <small>
                     <a href="#">continue to full article</a>
                 </small>
@@ -102,9 +104,11 @@
     </div>
     <footer>
         <p class="footer-bar">&copy; 2019 South East Idaho Weather | Janae Christiansen<br>
-        <span id="currentdate">Saturday, 9 February 2019</span>
+        <span id="currentdate"></span>
         </p>
     </footer>
+    <script src="js/togglemenu.js"></script>
+    <script src="js/currentdate.js"></script>
 </body>
 
 </html>

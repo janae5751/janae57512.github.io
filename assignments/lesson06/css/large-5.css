@@ -35,4 +35,9 @@
         height: auto;
     }
 
+    .fiveday, table{
+        display: inline-block;
+        border-collapse: collapse;
+    }
+
 }
