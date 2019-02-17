@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>South Eastern Idaho Community and Weather | Town of Preston</title>
+    <meta name="description" content="Local weather and activities. Preston, Soda Springs and Fish Haven communities in South Eastern Idaho.">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif+SC%7cRaleway" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small-5.css">
+    <link rel="stylesheet" href="css/large-5.css">
+
+</head>
+
+<body>
+    <header>
+        <img class="headerimg" src="images/sunlogo.jpg" alt="sunlogo">
+        <div class="headings">
+            <h1>South Eastern Idaho Community and Weather</h1>
+            <div class="motto">The place for locals to get weather and community information.</div>
+        </div>
+    </header>
+
+    <nav>
+        <ul class="site-navigation">
+            <li><a href="#" title="Menu" onclick="toggleMenu()">&equiv; Menu</a></li>
+            <li><a href="#" title="Home">Home</a></li>
+            <li><a href="#" title="Preston" class="active">Preston</a></li>
+            <li><a href="#" title="Soda Springs">Soda Springs</a></li>
+            <li><a href="#" title="Fish Haven">Fish Haven</a></li>
+            <li><a href="#" title="Storm Center">Storm Center</a></li>
+            <li><a href="#" title="Gallery">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Preston, Idaho</h2>
+        <div class="hero">
+            <picture class="hero">
+                <source srcset="images/winter-barn-large-900px.jpg" media="(min-width:800px)">
+                    <img src="images/winter-barn-small.jpg" alt="Winter barn landscape">
+            </picture>
+            <section class="weathersummary">
+                <h3>Weather Summary</h3>
+                <div class="weatherdetails">
+                    <div class="label">Currently:<span class="value">Snowy</span></div>
+                    <div class="label">High:<span class="value">28 &deg;F</span></div>
+                    <div class="label">Low:<span class="value">12 &deg;F</span></div>
+                    <div class="label">Wind Chill:<span class="value">20 &deg;F</span></div>
+                    <div class="label">Humidity:<span class="value">56%</span></div>
+                    <div class="label">Wind Speed:<span class="value">10 mph</span></div>
+                </div>
+            </section>
+        </div>
+        <section class="forecast">
+            <h3>5 Day Forecast</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Wed</th>
+                        <th>Thu</th>
+                        <th>Fri</th>
+                        <th>Sat</th>
+                        <th>Sun</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                            <td><img src="images/snowflake.png" alt="Snowy" class="forecast-image"><br>28&deg;F</td>
+                            <td><img src="images/snowflake.png" alt="Snowy" class="forecast-image"><br>25&deg;F</td>
+                            <td><img src="images/sunny.png" alt="Sunny" class="forecast-image"><br>35&deg;F</td>
+                            <td><img src="images/sunny.png" alt="Sunny" class="forecast-image"><br>35&deg;F</td>
+                            <td><img src="images/snowflake.png" alt="Snowy" class="forecast-image"><br>28&deg;F</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        
+        <article class="town-article">
+            <img src="images/weatherchild.jpg" alt="Child playing in the snow" class="articleimg" width="500px">
+            <h3>Article Title</h3>
+            <h4>Author</h4>
+            <p>This is where the article will be.
+                <small>
+                    <a href="#">continue to full article</a>
+                </small>
+            </p>
+        </article>
+
+    </main>
+    
+    <div class="contact">
+        <strong>Contact Us</strong><br>
+        <img class="smallesticon" src="#" alt="location pointer link"> &nbsp; 85 S Main <br> Preston, ID 83263 <br>
+        &phone; &nbsp; 999.999.9999 <br>
+        &#9993; &nbsp; contact@seidweather.com <br>
+        <br>
+    </div>
+
+    <div class="map"
+        <iframe src="https://www.google.com/maps/embed?"allowfullscreen></iframe>
+    </div>
+    <footer>
+        <p class="footer-bar">&copy; 2019 South East Idaho Weather | Janae Christiansen<br>
+        <span id="currentdate">Saturday, 9 February 2019</span>
+        </p>
+    </footer>
+</body>
+
+</html>

@@ -24,13 +24,15 @@
 /* Media Query for medium + screens */
     .site-navigation li:first-child {display: none;}
     .site-navigation li {display: inline-block; margin-right: 1rem;}
-    .site-navigation li a {color: yellow;}
-
+    .site-navigation li a {color: white;}
+    .active li {text-decoration-line: underline;}
     .forecast {
         display: block;
     }
 
-
-
+    .forecast-image {
+        width: 50px;
+        height: auto;
+    }
 
 }
